@@ -1,16 +1,12 @@
 * {
-  body {
-    font-family: 'Roboto', sans-serif; /* Replace 'Roboto' with your desired font */
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  /* You can change this font as per your design preference */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
   background-color: #14789cc5;
-  /* Clean light background */
   color: #333;
   font-size: 16px;
   line-height: 1.6;
@@ -33,10 +29,6 @@ header h1 {
 
 header h1:hover {
   color: rgba(240, 207, 16, 0.822);
-}
-
-.sec-box {
-  display: flex;
 }
 
 nav {
@@ -87,7 +79,6 @@ nav a:hover {
   transform: translateY(-10px);
 }
 
-
 .index-text {
   width: 60%;
 }
@@ -108,17 +99,6 @@ nav a:hover {
   color: #0a011c;
   margin-bottom: 30px;
 }
-
-/* .about-text .resume-btn {
-  display: inline-block;
-  padding: 12px 30px;
-  background-color: #f4b400;
-  color: white;
-  border-radius: 25px;
-  font-size: 1rem;
-  text-decoration: none;
-  transition: background-color 0.3s;
-} */
 
 .index-btn {
   padding: 8px 10px;
@@ -147,16 +127,13 @@ nav a:hover {
   border: 4px solid rgb(102, 18, 18);
 }
 
-.index-text .resume-btn:hover {
-  background-color: #e3a600;
-}
-
 .index-image {
   width: 35%;
 }
 
 .index-image img {
-  width: 50%;
+  width: 100%; /* Ensure images are responsive */
+  height: auto;
   border-radius: 80%;
   box-shadow: 0 4px 15px rgb(89, 121, 150);
 }
@@ -166,12 +143,11 @@ nav a:hover {
 .cards-holder {
   display: flex;
   justify-content: center;
-  gap: 80px;
-  /* align-items: center; */
+  gap: 20px; /* Adjust gap for smaller screens */
 }
 
 .projects-section {
-  padding: 50px;
+  padding: 30px; /* Adjust padding for smaller screens */
   max-width: 1200px;
   margin: 0 auto 30px auto;
 }
@@ -189,8 +165,8 @@ nav a:hover {
 
 .project-card {
   background-color: rgb(196, 200, 200);
-  width: 20vw;
-  padding: 30px;
+  width: 30vw; /* Adjust width for smaller screens */
+  padding: 20px;
   margin: 20px 0;
   border-radius: 15px;
   box-shadow: -8px 8px 3px rgba(7, 27, 71, 0.255);
@@ -227,10 +203,10 @@ nav a:hover {
 
 /* Contact Section */
 .contact-section {
-  padding: 50px;
+  padding: 30px; /* Adjust padding for smaller screens */
   max-width: 700px;
   margin: 35px auto;
-  background-color:  rgb(196, 200, 200);
+  background-color: rgb(196, 200, 200);
   border-radius: 15px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -239,11 +215,10 @@ nav a:hover {
   transition: transform 0.4s;
 }
 
-
-
 .contact-section:hover {
   transform: translateY(-10px);
 }
+
 .contact-section h2 {
   font-size: 2.5rem;
   margin-bottom: 30px;
@@ -275,36 +250,4 @@ nav a:hover {
 
 /* Footer */
 footer {
-  padding: 20px;
-  text-align: center;
-  background-color: #10141b;
-  color: white;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 100px;
-  width: 100%;
-}
-
-footer img {
-  width: 25px;
-  margin: 0 10px;
-}
-
-footer p {
-  margin-top: 10px;
-  font-size: 0.9rem;
-}
-
-
-footer i{
-  padding-right: 12px;
-}
-/* Helps footer stay at the bottom */
-html {
-  position: relative;
-  min-height: 100%;
-}
-body {
-  margin: 0 0 100px;
-}
+  padding: 20px
