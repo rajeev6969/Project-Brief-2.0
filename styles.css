@@ -67,7 +67,7 @@ nav a:hover {
 }
 
 /* About Section */
-.index-section {
+.about-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -83,27 +83,27 @@ nav a:hover {
   transition: transform 0.4s;
 }
 
-.index-section:hover {
+.about-section:hover {
   transform: translateY(-10px);
 }
 
 
-.index-text {
+.about-text {
   width: 60%;
 }
 
-.index-text h2 {
+.about-text h2 {
   font-size: 2.5rem;
   color: #000000;
 }
 
-.index-text h3 {
+.about-text h3 {
   font-size: 1.8rem;
   margin-bottom: 40px;
   color: #b28a2d;
 }
 
-.index-text p {
+.about-text p {
   font-size: 1.2rem;
   color: #0a011c;
   margin-bottom: 30px;
@@ -120,7 +120,7 @@ nav a:hover {
   transition: background-color 0.3s;
 } */
 
-.index-btn {
+.about-btn {
   padding: 8px 10px;
   border-radius: 15px;
   border: none;
@@ -147,15 +147,15 @@ nav a:hover {
   border: 4px solid rgb(102, 18, 18);
 }
 
-.index-text .resume-btn:hover {
+.about-text .resume-btn:hover {
   background-color: #e3a600;
 }
 
-.index-image {
+.about-image {
   width: 35%;
 }
 
-.index-image img {
+.about-image img {
   width: 50%;
   border-radius: 80%;
   box-shadow: 0 4px 15px rgb(89, 121, 150);
